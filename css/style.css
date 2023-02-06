@@ -38,7 +38,7 @@ body{
 .glow {
     text-align: center;
     font-size: 5rem;
-    color: #fff;
+    color: #FFFBC1;
     animation: glow 1s ease-in-out infinite alternate;
     user-select: none;
 }

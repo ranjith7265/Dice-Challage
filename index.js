@@ -20,8 +20,11 @@ dice2.setAttribute("src", randomDicetwoPath);
 
 
 if(randomNumberOne>randomNumberTwo){
- document.querySelector(".glow h3").innerText = "Winner : PLAYER 1";
+ document.querySelector(".glow h3").innerText = "PLAYER 1";
 }
-else{ 
-    document.querySelector(".glow h3").innerText = "Winner : PLAYER 2";   
+else if(randomNumberOne<randomNumberTwo){ 
+    document.querySelector(".glow h3").innerText = "PLAYER 2";   
+}
+else {
+    document.querySelector(".glow h3").innerHTML = "<h3>Tie !</h3>";
 }
